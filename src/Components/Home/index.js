@@ -3,6 +3,8 @@ import {Text, View, Image, } from 'react-native';
 import {Button} from "native-base";
 import styles from "./styles";
 
+import logo from "../../../assets/logo.png"
+
 export default class Demo extends Component {
   render() {
     return (
@@ -15,11 +17,79 @@ export default class Demo extends Component {
           <View style = {styles.SeperatingBar}>
 
             </View>
-          <View style = {styles.Logo}>
-
-          </View>
           <View style = {styles.Main}>
-
+            <View style = {styles.MainView}>
+              <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+              <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+            </View>
+            <View style = {styles.MainView}>
+            <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+              <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+            </View>
+            <View style = {styles.MainView}>
+            <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+              <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+            </View>
+            <View style = {styles.MainView}>
+            <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+              <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+               <Image
+                style={{ width: 70, height: 70 }}
+                source={logo}
+              />
+            </View>
           </View>
           <View style = {styles.BottomBar}>
               <Text style ={styles.BottomTextBar}>
