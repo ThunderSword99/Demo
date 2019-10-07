@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {Text, View, Image, } from 'react-native';
-import {Button} from "native-base";
+import { Text, View, Image, } from 'react-native';
+import { Button } from "native-base";
 import styles from "./styles";
 
 const logo = require("../../../assets/logo.png");
@@ -32,11 +32,12 @@ export default class Demo extends Component {
           </View>
         </View>
         <View style={styles.Button}>
-          <Button onPress={() => Alert.alert('Simple Button pressed')}
+          <Button
+            onPress={() => this.props.navigation.navigate("Drawer")}
             style={styles.btnContinue}>
             <Text style={styles.btnContinueText}>Continue</Text>
           </Button>
-          <Button onPress={() => Alert.alert('Simple Button pressed')}
+          <Button onPress={() => this.props.navigation.navigate("Drawer")}
             style={styles.btnCancel}>
             <Text style={styles.btnCancelText}>Cancel</Text>
           </Button>

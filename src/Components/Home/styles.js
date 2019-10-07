@@ -3,7 +3,7 @@ export default  {
     flex: 1,
   },
   TopBar:{
-    flex: 1.5,
+    flex: 0.8,
     backgroundColor: '#FF8C00',
     justifyContent: "center",
     alignItems: "center",
@@ -14,7 +14,7 @@ export default  {
   },
   LogoText:{
     color: 'white',
-    fontSize: 40,
+    fontSize: 56,
     fontFamily: 'serif',
   },
   Main:{
@@ -38,5 +38,21 @@ export default  {
   BottomTextBar:{
     fontStyle: 'italic',
     fontFamily: 'Roboto',
-  }
+  },
+
+  Button: {
+    flex: 1,
+    alignItems:"center",
+    backgroundColor: '#F0F0F0',
+  },
+  btnContinue: {
+    justifyContent:"center",
+    backgroundColor: '#6a00cc',
+    height: 50,
+    width: "85%",
+    borderRadius: 50,
+  },
+  btnContinueText:{
+    color: 'white',
+  },
 }
