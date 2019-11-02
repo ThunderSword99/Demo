@@ -32,20 +32,37 @@ export default {
     inputContainer:
     {
         flex:3,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     inputAccContainer:
     {
         flex:1,
-        backgroundColor:'red',
+    },
+    inputAcc:
+    {
+        width:300,
+        height:60,
+        borderBottomWidth: 1,
+        borderColor: 'black',
     },
     inputPassContainer:
     {
         flex:1,
-        backgroundColor:'blue',
     },
+    inputPass:
+    {
+        width:300,
+        height:60,
+        borderBottomWidth: 1,
+        borderColor: 'black',
+    },
+
+
+
     loginButtonContainer:
     {
-        flex:1,
+        flex:2,
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -56,6 +73,7 @@ export default {
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#0099F7',
+        borderRadius:50,
     },
     textLoginButton:
     {
@@ -65,6 +83,5 @@ export default {
     symbolContainer:
     {
         flex:1,
-        backgroundColor:'yellow',
     },
 }

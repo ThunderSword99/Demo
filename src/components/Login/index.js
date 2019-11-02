@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {StyleSheet,View,Image,Text} from 'react-native';
-import {Button} from "native-base";
+import {Button,Input} from "native-base";
 
 import styles from './styles'
 
@@ -25,10 +25,16 @@ export default class Login extends Component
                 </View>
                 <View style = {styles.inputContainer}>
                     <View style = {styles.inputAccContainer}>
-
+                        <Input
+                            placeholder = "Username or email"
+                            style = {styles.inputAcc}
+                        />
                     </View>
                     <View style = {styles.inputPassContainer}>
-
+                        <Input
+                            placeholder = "Password"
+                            style = {styles.inputPass}
+                        />
                     </View>
                     <View style = {styles.loginButtonContainer}>
                          <Button style = {styles.loginButton}>
