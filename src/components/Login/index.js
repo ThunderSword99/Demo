@@ -5,9 +5,11 @@ import { Button, Input } from "native-base";
 import styles from './styles'
 
 const mainLogo = require('../../../assets/logo.png');
-const fbLogo = require('../../../assets/facebook.png')
 const accLogo = require('../../../assets/account.png')
 const passLogo = require('../../../assets/password.png')
+const fbLogo = require('../../../assets/facebook.png')
+const twitterLogo = require('../../../assets/twitter.png')
+const helpLogo = require('../../../assets/help.png')
 
 export default class Login extends Component {
     render() {
@@ -66,10 +68,21 @@ export default class Login extends Component {
                     </View>
                 </View>
                 <View style={styles.iconContainer}>
-                    <Image
-                        style={styles.facebookIcon}
-                        source={fbLogo}
-                    />
+                    <View style = {styles.iconViewContainer}>
+                        <Image
+                            style={styles.mediaIcon}
+                            source={fbLogo}
+                        />
+                        <Image
+                            style={styles.mediaIcon}
+                            source={twitterLogo}
+                        />
+                        <Image
+                            style={styles.mediaIcon}
+                            source={helpLogo}
+                        />
+                    </View>
+                    
                 </View>
             </View>
         );

@@ -76,10 +76,6 @@ export default {
     {
         flex:1,
     },
-  
-
-
-
     loginButtonContainer:
     {
         flex:2,
@@ -88,8 +84,8 @@ export default {
     },
     loginButton:
     {
-        width:300,
-        height:60,
+        width:260,
+        height:50,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#0099F7',
@@ -106,15 +102,17 @@ export default {
         justifyContent: 'center',
         alignItems: 'center',
     },
-    facebookButton:
+    iconViewContainer:
     {
-        width:50,
+        width:'60%',
         height:50,
+        flexDirection:'row',
     },
-    facebookIcon:
+    mediaIcon:
     {
         width:50,
         height:50,
+        marginLeft:17,
     },
 
 }
