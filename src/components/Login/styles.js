@@ -8,6 +8,12 @@ export default {
         flex: 8,
         justifyContent: 'center',
     },
+    background:
+    {
+        width:'100%',
+        height:'100%',
+
+    },
     logoContainer:
     {
         flex:2,

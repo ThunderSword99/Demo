@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Image, Text } from 'react-native';
+import { StyleSheet, View, Image, Text,ImageBackground } from 'react-native';
 import { Button, Input } from "native-base";
 
 import styles from './styles'
 
+const bg = require('../../../assets/background.png');
 const mainLogo = require('../../../assets/logo.png');
 const accLogo = require('../../../assets/account.png')
 const passLogo = require('../../../assets/password.png')
@@ -15,7 +16,8 @@ export default class Login extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <View style={styles.logoContainer}>
+               <ImageBackground style = {styles.background} source = {bg}>
+               <View style={styles.logoContainer}>
                     <Image
                         style={styles.logo}
                         source={mainLogo}
@@ -84,6 +86,8 @@ export default class Login extends Component {
                     </View>
                     
                 </View>
+               </ImageBackground>
+               
             </View>
         );
     }
