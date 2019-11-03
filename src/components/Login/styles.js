@@ -1,3 +1,6 @@
+import leftPad from "left-pad";
+import { Left } from "native-base";
+
 export default {
     container:
     {
@@ -35,28 +38,45 @@ export default {
         justifyContent: 'center',
         alignItems: 'center',
     },
-    inputAccContainer:
+    inputViewContainer:
     {
+        width:'100%',
         flex:1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    inputView:
+    {
+        width:300,
+        height:50,
+        flexDirection:'row',
+        borderBottomWidth:1,
+    },
+    iconView:
+    {
+        width:50,
+        height:'100%',
+    },
+    Icon:
+    {
+        width:50,
+        height:50,
+    },
+    inputAccView:
+    {
+        width:250,
+        height: '100%',
     },
     inputAcc:
     {
-        width:300,
+        width:250,
         height:60,
-        borderBottomWidth: 1,
-        borderColor: 'black',
     },
     inputPassContainer:
     {
         flex:1,
     },
-    inputPass:
-    {
-        width:300,
-        height:60,
-        borderBottomWidth: 1,
-        borderColor: 'black',
-    },
+  
 
 
 
@@ -80,8 +100,21 @@ export default {
         color: 'white',
     },
     ////////////////////////////////////////
-    symbolContainer:
+    iconContainer:
     {
         flex:1,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
+    facebookButton:
+    {
+        width:50,
+        height:50,
+    },
+    facebookIcon:
+    {
+        width:50,
+        height:50,
+    },
+
 }
