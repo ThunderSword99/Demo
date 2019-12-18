@@ -22,8 +22,10 @@ export default {
     },
     logo:
     {
+        marginTop:10,
         width: 100,
         height:100,
+
     },
     ///////////////////////////////////////
     textContainer:
@@ -31,11 +33,11 @@ export default {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop:30,
     },
     text:
     {
         fontSize: 40,
-
     },
     ///////////////////////////////////////
     inputContainer:
@@ -43,6 +45,7 @@ export default {
         flex:3,
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop:10,
     },
     inputViewContainer:
     {
@@ -53,6 +56,7 @@ export default {
     },
     inputView:
     {
+        marginTop:20,
         width:300,
         height:50,
         flexDirection:'row',
@@ -90,6 +94,7 @@ export default {
     },
     loginButton:
     {
+        marginTop:70,
         width:260,
         height:50,
         justifyContent: 'center',
@@ -107,9 +112,11 @@ export default {
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop:40,
     },
     iconViewContainer:
     {
+        
         width:'60%',
         height:50,
         flexDirection:'row',
