@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, Text, ImageBackground } from 'react-native';
-import { Button, Input } from "native-base"; 4
+import { Button, Input } from "native-base";
 import { KeyboardAvoidingView } from 'react-native';
 import InputScrollView from 'react-native-input-scroll-view';
 
@@ -19,8 +19,6 @@ const helpLogo = require('../../../assets/help.png')
 export default class Login extends Component {
     render() {
         return (
-
-
             <View style={styles.container}>
                 <ImageBackground style={styles.background} source={bg}>
                 <InputScrollView>
